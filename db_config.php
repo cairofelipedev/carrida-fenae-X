@@ -1,8 +1,8 @@
 <?php 
 	$DB_HOST = 'localhost';
-	$DB_USER = '${{ secrets.DB_USER }}';
-	$DB_PASS = '${{ secrets.DB_PASS }}';
-	$DB_NAME = '${{ secrets.DB_NAME }}';
+	$DB_USER = 'apcefp08_site';
+	$DB_PASS = '@Apcef321!02';
+	$DB_NAME = 'apcefp08_site';
 	
 	try{
 		$DB_con = new PDO("mysql:host={$DB_HOST};dbname={$DB_NAME}",$DB_USER,$DB_PASS);
