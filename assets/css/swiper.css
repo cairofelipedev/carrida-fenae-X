@@ -1,0 +1,12 @@
+.swiper img {
+  width: 100%;
+  z-index: 1;
+}
+
+.swiper-slide {
+  z-index: 1;
+}
+
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
