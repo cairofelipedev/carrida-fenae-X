@@ -233,7 +233,7 @@ if (isset($_POST['btnsave'])) {
         </div>
       </div>
       <h2 class="font-semibold md:text-left text-center py-2">TERMO DE RESPONSABILIDADE INDIVIDUAL</h2>
-      <a class="text-blue-800" target="_blank" href="Regulamento_XII_Corrida_2023[1].pdf">Leia o regulamento clicando aqui</a>
+      <a class="text-blue-800" target="_blank" href="Regulamento_XII_Corrida_2023.pdf">Leia o regulamento clicando aqui</a>
       <br>
       <input value="ok" name="termo1" class="mx-1" type="checkbox" required /> Li e estou plenamente de acordo com o Regulamento particular inserido e amplamente divulgado na página
       oficial do evento, XII Corrida Fenae do Pessoal da Caixa 2023.
