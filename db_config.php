@@ -1,6 +1,6 @@
 <?php 
-	$DB_HOST = $_ENV['SECRET_DB_HOST'];
-	$DB_USER = $_ENV['SECRET_DB_USER'];
+	$DB_HOST = '${{ secrets.SECRET_DB_HOST }}';
+	$DB_USER = '${{ secrets.SECRET_DB_USER }}';
 	$DB_PASS = $_ENV['SECRET_DB_PASS'];
 	$DB_NAME = $_ENV['SECRET_DB_NAME'];
 	
