@@ -1,7 +1,8 @@
 <?php 
-	$DB_USER = 'apcefp08_site';
-	$DB_PASS = '@Apcef321!02';
-	$DB_NAME = 'apcefp08_site';
+	$DB_HOST = $_ENV['SECRET_DB_HOST'];
+	$DB_USER = $_ENV['SECRET_DB_USER'];
+	$DB_PASS = $_ENV['SECRET_DB_PASS'];
+	$DB_NAME = $_ENV['SECRET_DB_NAME'];
 	
 	try{
 		$DB_con = new PDO("mysql:host={$DB_HOST};dbname={$DB_NAME}",$DB_USER,$DB_PASS);
@@ -10,4 +11,3 @@
 	catch(PDOException $e){
 		echo $e->getMessage();
 	}
-?>
