@@ -43,7 +43,7 @@ $URI = new URI();
       if (value == "loja") {
         document.getElementById("add").innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.2421013142107!2d-42.77256298465674!3d-5.064463952843603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3a10c0c0c98d%3A0x2a9a497430e4220f!2sClube%20APCEF!5e0!3m2!1spt-BR!2sbr!4v1675334559666!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><h6>Av. Pres. Kennedy, 1951 - São Cristóvão, Teresina - PI, 64050-210</h6></div>`
       } else if (value == "cartao") {
-        document.getElementById("add").innerHTML = `<!-- INICIO DO BOTAO PAGSEGURO --><a href="https://pag.ae/7Z6kBLFhQ/button" target="_blank" title="Pagar com PagSeguro"><img src="//assets.pagseguro.com.br/ps-integration-assets/botoes/pagamentos/205x30-pagar.gif" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /></a><!-- FIM DO BOTAO PAGSEGURO -->`
+        document.getElementById("add").innerHTML = `<!-- INICIO DO BOTAO PAGSEGURO --><a href="https://pag.ae/7ZbPak-zr/button" target="_blank" title="Pagar com PagSeguro"><img src="//assets.pagseguro.com.br/ps-integration-assets/botoes/pagamentos/205x30-pagar.gif" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /></a><!-- FIM DO BOTAO PAGSEGURO -->`
       } else if (value == "pix") {
         document.getElementById("add").innerHTML = `<div class='p-3 shadow'><h6>Chave pix: <span class='font-bold'>contato@apcefpi.org.br</span> <br> Envie o comprovante para nosso WhatsApp: <br> 86 99843-0303</h6></div>`
       }
